@@ -2,7 +2,7 @@ package database
 
 import (
 	"context"
-	"goapi/pkg/errors"
+	"github.com/gandarfh/api-httui/pkg/errors"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/tryvium-travels/memongo"

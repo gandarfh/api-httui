@@ -1,7 +1,7 @@
 package repositories
 
 import (
-	"goapi/infrastructure/database"
+	"github.com/gandarfh/api-httui/infrastructure/database"
 	"os"
 
 	"github.com/gofiber/fiber/v2"

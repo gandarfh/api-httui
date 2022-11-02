@@ -3,7 +3,7 @@ package utils
 import (
 	"fmt"
 
-	"goapi/pkg/permissions"
+	"github.com/gandarfh/api-httui/pkg/permissions"
 )
 
 // VerifyRole func for verifying a given role.

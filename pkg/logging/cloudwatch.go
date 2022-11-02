@@ -2,7 +2,7 @@ package logging
 
 import (
 	"fmt"
-	"goapi/pkg/aws/cloudwatch"
+	"github.com/gandarfh/api-httui/pkg/aws/cloudwatch"
 	"log"
 	"os"
 	"runtime"

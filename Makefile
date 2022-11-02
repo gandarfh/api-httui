@@ -1,4 +1,4 @@
-APP_NAME = goapi
+APP_NAME = api-httui
 BUILD_DIR = $(PWD)/build
 MIGRATIONS_FOLDER = $(PWD)/platform/migrations
 DATABASE_URL = postgres://postgres:password@cgapp-postgres/postgres?sslmode=disable

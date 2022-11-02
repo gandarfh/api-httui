@@ -1,9 +1,9 @@
 package services
 
 import (
-	"goapi/internal/modules/books/dto"
-	"goapi/internal/modules/books/entities"
-	"goapi/pkg/convert"
+	"github.com/gandarfh/api-httui/internal/modules/books/dto"
+	"github.com/gandarfh/api-httui/internal/modules/books/entities"
+	"github.com/gandarfh/api-httui/pkg/convert"
 	"time"
 
 	"github.com/gofiber/fiber/v2"

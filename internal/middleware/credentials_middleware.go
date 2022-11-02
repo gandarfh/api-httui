@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"goapi/pkg/jwt"
+	"github.com/gandarfh/api-httui/pkg/jwt"
 
 	"github.com/gofiber/fiber/v2"
 )

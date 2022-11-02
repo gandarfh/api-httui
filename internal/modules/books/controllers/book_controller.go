@@ -1,11 +1,11 @@
 package controllers
 
 import (
-	"goapi/internal/modules/books/dto"
-	"goapi/internal/modules/books/services"
-	"goapi/pkg/errors"
-	"goapi/pkg/jwt"
-	"goapi/pkg/utils"
+	"github.com/gandarfh/api-httui/internal/modules/books/dto"
+	"github.com/gandarfh/api-httui/internal/modules/books/services"
+	"github.com/gandarfh/api-httui/pkg/errors"
+	"github.com/gandarfh/api-httui/pkg/jwt"
+	"github.com/gandarfh/api-httui/pkg/utils"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"

@@ -1,8 +1,8 @@
 package database
 
 import (
-	"goapi/pkg/errors"
-	"goapi/pkg/utils"
+	"github.com/gandarfh/api-httui/pkg/errors"
+	"github.com/gandarfh/api-httui/pkg/utils"
 
 	"github.com/gofiber/fiber/v2"
 	"go.mongodb.org/mongo-driver/mongo"

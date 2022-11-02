@@ -1,8 +1,10 @@
-module goapi
+module github.com/gandarfh/api-httui
 
 go 1.19
 
 require (
+	github.com/swaggo/swag v1.8.6
+	github.com/aws/aws-sdk-go v1.44.112
 	github.com/go-playground/validator/v10 v10.11.1
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/go-sql-driver/mysql v1.6.0
@@ -15,7 +17,6 @@ require (
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/joho/godotenv v1.4.0
 	github.com/stretchr/testify v1.8.0
-	github.com/swaggo/swag v1.8.6
 	github.com/tryvium-travels/memongo v0.7.0
 	go.mongodb.org/mongo-driver v1.10.3
 	golang.org/x/crypto v0.0.0-20221005025214-4161e89ecf1b
@@ -25,7 +26,6 @@ require (
 	github.com/KyleBanks/depth v1.2.1 // indirect
 	github.com/acobaugh/osrelease v0.0.0-20181218015638-a93a0a55a249 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
-	github.com/aws/aws-sdk-go v1.44.112 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect

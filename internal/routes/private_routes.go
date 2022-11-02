@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"goapi/internal/middleware"
-	"goapi/internal/modules/books"
+	"github.com/gandarfh/api-httui/internal/middleware"
+	"github.com/gandarfh/api-httui/internal/modules/books"
 
 	"github.com/gofiber/fiber/v2"
 )

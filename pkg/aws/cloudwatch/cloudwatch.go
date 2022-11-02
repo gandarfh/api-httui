@@ -1,7 +1,7 @@
 package cloudwatch
 
 import (
-	"goapi/pkg/aws"
+	"github.com/gandarfh/api-httui/pkg/aws"
 	"os"
 	"time"
 

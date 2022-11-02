@@ -2,10 +2,10 @@ package repositories
 
 import (
 	"fmt"
-	"goapi/internal/modules/books/dto"
-	"goapi/internal/modules/books/entities"
-	"goapi/pkg/errors"
-	"goapi/pkg/pagination"
+	"github.com/gandarfh/api-httui/internal/modules/books/dto"
+	"github.com/gandarfh/api-httui/internal/modules/books/entities"
+	"github.com/gandarfh/api-httui/pkg/errors"
+	"github.com/gandarfh/api-httui/pkg/pagination"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"

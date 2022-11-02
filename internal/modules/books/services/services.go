@@ -1,7 +1,7 @@
 package services
 
 import (
-	"goapi/internal/modules/books/repositories"
+	"github.com/gandarfh/api-httui/internal/modules/books/repositories"
 
 	"github.com/gofiber/fiber/v2"
 )

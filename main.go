@@ -1,15 +1,15 @@
 package main
 
 import (
-	"goapi/internal/middleware"
-	"goapi/internal/routes"
-	"goapi/pkg/configs"
-	"goapi/pkg/utils"
+	"github.com/gandarfh/api-httui/internal/middleware"
+	"github.com/gandarfh/api-httui/internal/routes"
+	"github.com/gandarfh/api-httui/pkg/configs"
+	"github.com/gandarfh/api-httui/pkg/utils"
 	"os"
 
 	"github.com/gofiber/fiber/v2"
 
-	_ "goapi/swagger" // load API Docs files (Swagger)
+	_ "github.com/gandarfh/api-httui/swagger" // load API Docs files (Swagger)
 
 	_ "github.com/joho/godotenv/autoload" // load .env file automatically
 )

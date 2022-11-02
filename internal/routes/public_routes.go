@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"goapi/internal/modules/books"
-	"goapi/internal/modules/healthcheck"
-	"goapi/internal/modules/tokens"
+	"github.com/gandarfh/api-httui/internal/modules/books"
+	"github.com/gandarfh/api-httui/internal/modules/healthcheck"
+	"github.com/gandarfh/api-httui/internal/modules/tokens"
 
 	"github.com/gofiber/fiber/v2"
 )

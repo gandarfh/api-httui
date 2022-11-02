@@ -1,9 +1,9 @@
 package books
 
 import (
-	"goapi/internal/routes"
-	"goapi/pkg/jwt"
-	"goapi/pkg/permissions"
+	"github.com/gandarfh/api-httui/internal/routes"
+	"github.com/gandarfh/api-httui/pkg/jwt"
+	"github.com/gandarfh/api-httui/pkg/permissions"
 	"io"
 	"net/http/httptest"
 	"strings"

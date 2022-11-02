@@ -1,9 +1,9 @@
 package books
 
 import (
-	"goapi/internal/middleware"
-	"goapi/internal/modules/books/controllers"
-	"goapi/pkg/permissions"
+	"github.com/gandarfh/api-httui/internal/middleware"
+	"github.com/gandarfh/api-httui/internal/modules/books/controllers"
+	"github.com/gandarfh/api-httui/pkg/permissions"
 
 	"github.com/gofiber/fiber/v2"
 )
